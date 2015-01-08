@@ -1,7 +1,7 @@
 # Nexus 4 navigation buttons fix
 Fix making Nexus 4 navigation buttons alive after enigmatic hardware issue
 
-Prebuilts available!
+**Prebuilts available!**
 
 1. LRX22C (Android 5.0.1)
 
