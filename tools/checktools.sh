@@ -1,8 +1,8 @@
 #!/bin/bash
 DIR=`dirname $0`
 
-if ( [ ! -f "${DIR}/apktool.jar" ] || 
-     [ ! -f "${DIR}/zipalign" ] || 
+if ( [ ! -f "${DIR}/apktool.jar" ] ||
+     [ ! -f "${DIR}/zipalign" ] ||
      [ ! -f "${DIR}/update_blank.zip" ] );
 then
     exit 1

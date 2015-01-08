@@ -31,12 +31,12 @@ echo
 echo "== APK Tool =="
 echo "Apache License 2.0"
 echo "Origin: https://code.google.com/p/android-apktool"
-echo 
+echo
 echo "== zipalign =="
 echo "Android Software Development Kit License"
 echo "Terms: https://developer.android.com/sdk/terms.html"
 echo "Origin: Android SDK"
-echo 
+echo
 echo "== update-binary =="
 echo "Unknown License (widely distributed in fact)"
 echo "Origin: Some update.zip for Nexus 4"
