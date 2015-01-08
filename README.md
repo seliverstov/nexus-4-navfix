@@ -1,6 +1,12 @@
 # Nexus 4 navigation buttons fix
 Fix making Nexus 4 navigation buttons alive after enigmatic hardware issue
 
+Prebuilts available!
+
+1. LRX22C (Android 5.0.1)
+
+See [Releases](github.com/gkraynov/nexus-4-navfix/releases) to download `UPDATE.zip`. Verify your build number carefully! Wrong builds will not work.
+
 About the issue http://www.youtube.com/watch?v=Gu_CF4X9xOI (not my video)
 
 Creepy solution http://www.androidpure.com/fix-nexus-4-soft-touch-buttons-keys-working
@@ -18,6 +24,8 @@ $ ./all.sh
 ```
 
 Flash `UPDATE.zip` via custom recovery. Enjoy!
+
+Once you see OTA update alert, flash `UPDATE_ROLLBACK.zip`, update and repeat.
 
 Prerequesties:
 
