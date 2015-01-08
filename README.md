@@ -25,7 +25,7 @@ $ ./all.sh
 
 Flash `UPDATE.zip` via custom recovery. Enjoy!
 
-Once you see OTA update alert, flash `UPDATE_ROLLBACK.zip`, update and repeat.
+Don't forget to save `UPDATE_ROLLBACK.zip` in a safe place. Once you see OTA update alert, flash rollback, update and repeat. Never try to apply OTA for patched files, rollback first!
 
 Prerequesties:
 
