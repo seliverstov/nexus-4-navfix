@@ -53,3 +53,21 @@ If you are hacker in mind or automated solution didn't work for you there is alt
 4. Extract `UPDATE.zip`
 5. Replace `/system/priv-app/SystemUI/SystemUI.apk` with the new one
 6. Reboot
+
+## Bugs and feedback
+
+If you've found bug the ideal way is making pull request ;) But you can also contact me directly.
+
+Since I'm very limited in testing set please try the following environment before claiming the bug:
+
+1. Common Linux distribution (tested on Ubuntu and Arch)
+2. Bash shell
+3. LRX22C build without any patches (from [Google Nexus](https://developers.google.com/android/nexus/images))
+4. Unlocked bootloader
+5. ClockworkMod recovery (tested on 6.0.4.7 non-touch)
+
+Please try manual patching as well for troubleshooting. Obviously, you're very welcome to report minor bugs.
+
+**Please send me experience feedback on Mac OS X, I don't now anything about Mac compatibily.**
+
+Contact email: [github@gkraynov.com](mailto:github@gkraynov.com)
