@@ -1,16 +1,18 @@
 # Nexus 4 navigation buttons fix
 Fix making Nexus 4 navigation buttons alive after enigmatic hardware issue
 
-**Prebuilts available!**
+About the issue http://www.youtube.com/watch?v=Gu_CF4X9xOI (not my video)
+
+Creepy solution http://www.androidpure.com/fix-nexus-4-soft-touch-buttons-keys-working
+
+## Prebuilts ##
 
 1. LRX22C (Android 5.0.1)
 2. LRX21T (Android 5.0)
 
 See [Releases](https://github.com/gkraynov/nexus-4-navfix/releases) to download `UPDATE.zip`. Verify your build number carefully! Wrong builds will not work.
 
-About the issue http://www.youtube.com/watch?v=Gu_CF4X9xOI (not my video)
-
-Creepy solution http://www.androidpure.com/fix-nexus-4-soft-touch-buttons-keys-working
+If you are not familiar with flashing zips on you phone, there is comprehensive [Tutuorial](http://status301.net/how-to-fix-nexus-4-unresponsive-soft-navigation-menu-buttons), thanks RavanH.
 
 ## The root of issue
 
@@ -38,6 +40,11 @@ Prerequesties:
 2. Linux machine (tested on fresh Ubuntu)
 3. ADB installed
 4. Custom recovery (no root required)
+
+N.B. If you still having problems, try to install the following packages on your system
+```
+curl libc6-i386 lib32z1
+```
 
 ## Manual patching
 
