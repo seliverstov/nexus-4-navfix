@@ -1,4 +1,15 @@
 # Nexus 4 navigation buttons fix
+
+## Android 5.1
+
+I'm sorry for delay, but some things were changed in 5.1 and previous method does not work. I have working navbar buttons on engineering image on my phone but it requires some time to integrate the change into closed-source APK in Google image. I will complete this in a few days.
+
+Stay tuned!
+
+Use Android 5.0.1 until update will be released.
+
+## About
+
 Fix making Nexus 4 navigation buttons alive after enigmatic hardware issue
 
 About the issue http://www.youtube.com/watch?v=Gu_CF4X9xOI (not my video)
