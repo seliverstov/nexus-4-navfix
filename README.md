@@ -2,11 +2,17 @@
 
 ## Android 5.1
 
-I'm sorry for delay, but some things were changed in 5.1 and previous method does not work. I have working navbar buttons on engineering image on my phone but it requires some time to integrate the change into closed-source APK in Google image. I will complete this in a few days.
+Resource file format was a little bit changed in Android 5.1 and **this script is not functional anymore for 5.1+ images**. Despite the fact I made update for LMY47O (5.1) stock image. I hope to pass code review for persistent patch and this sh*t will remain as history.
 
-Stay tuned!
+## Prebuilts ##
 
-Use Android 5.0.1 until update will be released.
+1. LMY47O (Android 5.1)
+2. LRX22C (Android 5.0.1)
+3. LRX21T (Android 5.0)
+
+See [Releases](https://github.com/gkraynov/nexus-4-navfix/releases) to download `UPDATE.zip`. Verify your build number carefully! Wrong builds will not work.
+
+If you are not familiar with flashing zips on you phone, there is comprehensive [Tutuorial](http://status301.net/how-to-fix-nexus-4-unresponsive-soft-navigation-menu-buttons), thanks RavanH.
 
 ## About
 
@@ -16,22 +22,13 @@ About the issue http://www.youtube.com/watch?v=Gu_CF4X9xOI (not my video)
 
 Creepy solution http://www.androidpure.com/fix-nexus-4-soft-touch-buttons-keys-working
 
-## Prebuilts ##
-
-1. LRX22C (Android 5.0.1)
-2. LRX21T (Android 5.0)
-
-See [Releases](https://github.com/gkraynov/nexus-4-navfix/releases) to download `UPDATE.zip`. Verify your build number carefully! Wrong builds will not work.
-
-If you are not familiar with flashing zips on you phone, there is comprehensive [Tutuorial](http://status301.net/how-to-fix-nexus-4-unresponsive-soft-navigation-menu-buttons), thanks RavanH.
-
 ## The root of issue
 
 I had no believe on hardware-only root of issue. During digging inside touchscreen driver inside AOSP I've found deadzone processing. What does it mean? Immagine that you're typing a message and accidentialy clicks on navigation bar. This click could cause undesirable experience, but deadzone have some timeout after your last action and accidential touches should be ignored.
 
-Unfortunately, Nexus 4 touchscreen could process deadzone in a wrong way after enigmatic hardware issue. This cause that deadzone locking locks same touch region forever. The easiest way to overcome this damn is disabling deadzone at all. It's exactly my script does!
+~~Unfortunately, Nexus 4 touchscreen could process deadzone in a wrong way after enigmatic hardware issue. This cause that deadzone locking locks same touch region forever. The easiest way to overcome this damn is disabling deadzone at all. It's exactly my script does!~~
 
-I think that no deadzone is better than permanent dead area :D
+The root of issue is flooring tiny strip of touchscreen down to permanent deadzone. But I can't predict outcome of code review for permanent anti-bug woorkaround.
 
 ## Automated solution
 
