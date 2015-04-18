@@ -2,7 +2,9 @@
 
 ## Android 5.1
 
-Resource file format was a little bit changed in Android 5.1 and **this script is not functional anymore for 5.1+ images**. Despite the fact I made update for LMY47O (5.1) stock image. I hope to pass code review for persistent patch and this sh*t will remain as history.
+Resource file format was a little bit changed in Android 5.1 and **this SCPIRT is not functional anymore for 5.1+ images**. Despite the fact I've completed UPDATE for LMY47O (5.1) stock image (yes, you CAN flash UPDATE.zip if you run official 5.1 Nexus image). I hope to pass code review for persistent patch and this sh*t will remain as history.
+
+Update for 5.1 in prebuils/releases section uses another approach to fix this problem and irrelevant with patching manual. If you have any 5.1 image differ from Google's one, I'm sorry there is no easy solution for you. I've posted [Patch](https://android-review.googlesource.com/#/c/147266) into AOSP and awaiting response from maintainers. I can't really predict outcome of this review but upon success it will cover the problem for all users aofter OTA update (obviously after merging the patch by Google).
 
 ## Prebuilts ##
 
