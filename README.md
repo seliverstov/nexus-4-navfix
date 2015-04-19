@@ -1,5 +1,7 @@
 # Nexus 4 navigation buttons fix
 
+There are some requests to place donation button here, but I'd like to keep my PayPal account private. If you want to make donation just email me [github@gkraynov.com](mailto:github@gkraynov.com) to ask my account ID. Thanks for understanding, you're welcome to make donation but no solicition from my side :)
+
 ## Android 5.1
 
 Resource file format was a little bit changed in Android 5.1 and **this SCPIRT is not functional anymore for 5.1+ images**. Despite the fact I've completed UPDATE for LMY47O (5.1) stock image (yes, you CAN flash UPDATE.zip if you run official 5.1 Nexus image). I hope to pass code review for persistent patch and this sh*t will remain as history.
