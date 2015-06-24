@@ -4,6 +4,8 @@
 
 Big appreciation for RavanH for testing, so he confirmed that fix as working.
 
+If you want to promote this fix for your custom ROM follow this [Patch](https://android-review.googlesource.com/#/c/147266).
+
 # IMPORTANT NOTICE
 
 My phone is irrecoverably broken and I have no device to test the fix. I will try to provide updates on a infrequent basis but with **NO WARRANTY AT ALL** since I can't even confirm that anything works. Please take in account that any releases later than 5.1.0 is blind-crafted.
