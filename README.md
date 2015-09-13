@@ -16,10 +16,11 @@ If you would like to appreciate, post something in this [Thread](https://github.
 
 ## Prebuilts ##
 
-1. LMY47V (Android 5.1.1)
-2. LMY47O (Android 5.1.0)
-3. LRX22C (Android 5.0.1)
-4. LRX21T (Android 5.0)
+1. LMY48M (Android 5.1.1)
+2. LMY47V (Android 5.1.1)
+3. LMY47O (Android 5.1.0)
+4. LRX22C (Android 5.0.1)
+5. LRX21T (Android 5.0)
 
 See [Releases](https://github.com/gkraynov/nexus-4-navfix/releases) to download `UPDATE.zip`. Verify your build number carefully! Wrong builds will not work.
 
