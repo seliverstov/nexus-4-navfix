@@ -6,7 +6,7 @@ If you want to promote this fix for your custom ROM maintainer follow this [Patc
 
 # VERY IMPORTANT DISCLAIMER
 
-I have no longer a phone to reproduce or test issue. All release after 5.1.0 built in hope for best of luck. There is **NO WARRANTY AT ALL** and I will not respond on feedback like "I tried your patch, but it didn't work, WTF?!". I know that dead zones varies across broken touch screens and I'm not in guilty that some phone has bigger irresponsive area.
+I have no longer a phone to reproduce or test the issue. All releases after 5.1.0 built in hope for best of luck. There is **NO WARRANTY AT ALL** and I will not respond on feedback like "I tried your patch, but it didn't work, WTF?!". I know that dead zones varies across broken touch screens and I'm not in guilty that some phone has bigger irresponsive area.
 
 ## Prebuilts ##
 
