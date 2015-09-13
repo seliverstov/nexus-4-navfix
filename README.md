@@ -1,18 +1,12 @@
 # Nexus 4 navigation buttons fix
 
-**Build for Android 5.1.1 (LMY47V) now available!**
+**Build for Android 5.1.1 (LMY48M) now available!**
 
-Big appreciation for RavanH for testing, so he confirmed that fix as working.
+If you want to promote this fix for your custom ROM maintainer follow this [Patch](https://android-review.googlesource.com/#/c/147266).
 
-If you want to promote this fix for your custom ROM follow this [Patch](https://android-review.googlesource.com/#/c/147266).
+# VERY IMPORTANT DISCLAIMER
 
-# IMPORTANT NOTICE
-
-My phone is irrecoverably broken and I have no device to test the fix. I will try to provide updates on a infrequent basis but with **NO WARRANTY AT ALL** since I can't even confirm that anything works. Please take in account that any releases later than 5.1.0 is blind-crafted.
-
-I'm really sorry to freeze this little project, but would be happy if my finding (patch) will be applied for custom ROMs someday. I want to say **HUGE THANKS** for everyone in this big community for your feedback.
-
-If you would like to appreciate, post something in this [Thread](https://github.com/gkraynov/nexus-4-navfix/issues/3). Small donation is appreciated as well, e-mail me [github@gkraynov.com](mailto:github@gkraynov.com) to ask my PayPal ID.
+I have no longer a phone to reproduce or test issue. All release after 5.1.0 built in hope for best of luck. There is **NO WARRANTY AT ALL** and I will not respond on feedback like "I tried your patch, but it didn't work, WTF?!". I know that dead zones varies across broken touch screens and I'm not in guilty that some phone has bigger irresponsive area.
 
 ## Prebuilts ##
 
