@@ -1,7 +1,5 @@
 # Nexus 4 navigation buttons fix
 
-If you want to promote this fix for your custom ROM maintainer follow this [Patch](https://android-review.googlesource.com/#/c/147266).
-
 # VERY IMPORTANT DISCLAIMER
 
 There is **NO WARRANTY AT ALL** and I will not respond on feedback like "I tried your patch, but it didn't work, WTF?!". I know that dead zones varies across broken touch screens and I'm not in guilty that some phone has bigger irresponsive area.
